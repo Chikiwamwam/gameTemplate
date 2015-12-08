@@ -40,7 +40,7 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/MainSecurityRoom/126.png");
+	background-image: url("img/Main Security Room/58-1.png");
 	background-position: bottom center;
 
 }
@@ -56,11 +56,23 @@ body {
 
 }
 
+<<<<<<< Updated upstream
 
 
 #goLeft1 {
     bottom: -5%;
     right: 400px;
+=======
+#exploreCameras {
+	background-image: url("img/420.png");
+	background-position: bottom;
+}
+
+
+#goLeft1 {
+    left: 40px;
+    top: 40%;
+>>>>>>> Stashed changes
     display: block;
 }
 
