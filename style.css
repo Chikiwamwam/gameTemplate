@@ -56,6 +56,12 @@ body {
 
 }
 
+#exploreCameras {
+	background-image: url("img/420.png");
+	background-position:bottom;
+}
+
+
 #goLeft1 {
     left: 40px;
     top: 40%;
