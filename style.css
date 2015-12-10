@@ -9,6 +9,12 @@ body {
 
 /*Stuff below governs the start screen*/
 
+#exploreCameras {
+	background-image: url("img/MainSecurityRoom/420.png");
+	background-position: bottom center;
+}
+
+
 .titleContent {
 	margin: 10% auto;
     text-align: center;
@@ -157,4 +163,8 @@ display: inline;
 	padding: 10px 10px;
     margin: 20px;
     font-size:0.6em;
+}
+
+#Jamaica {
+	background-image: url("img/MainSecurityRoom/58-1.png");
 }
