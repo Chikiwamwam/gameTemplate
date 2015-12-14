@@ -38,7 +38,7 @@ $( document ).ready(function() {
 
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/TitleScreeens/145.png')");
+		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
 		$("#goLeft1").hide();
 		$("#goLeft2").show();
 	});
