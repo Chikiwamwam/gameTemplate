@@ -1,11 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
-<<<<<<< HEAD
-		$("#exploreBody").css("background-image", "url('img/Fnaf4_jumpscare_fredbearinroom.gif')");
-=======
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/poop.gif')");
->>>>>>> origin/master
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
@@ -38,7 +34,7 @@ $( document ).ready(function() {
 
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/TitleScreeens/145.png')");
 		$("#goLeft1").hide();
 		$("#goLeft2").show();
 	});
