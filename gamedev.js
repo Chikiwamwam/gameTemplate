@@ -2,11 +2,7 @@ $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/poop.gif')");
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
-		$("#goRight1").hide();
+$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
 		$("#goRight-Right2").show();
@@ -39,7 +35,7 @@ $( document ).ready(function() {
 
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
-		$("#goLeft1").hide();
+		$("#goLeft1").hide("#goRight1");
 		$("#goLeft2").show();
 	});
 
