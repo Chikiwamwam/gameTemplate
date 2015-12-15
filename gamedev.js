@@ -2,14 +2,19 @@ $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/poop.gif')");
+<<<<<<< HEAD
 $("#goRight1").hide();
+=======
+
+		$("#goRight1").hide();
+>>>>>>> origin/master
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
 		$("#goRight-Right2").show();
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
 	});
