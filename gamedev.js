@@ -45,7 +45,7 @@ origin/master
 
 	$("#goLeft-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
-		$("#goLeft2").hide();
+		$("#goLeft2").show();
 		$("#goLeft3").show();
 	});
 
