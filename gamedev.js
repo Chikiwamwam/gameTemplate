@@ -2,19 +2,18 @@ $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/poop.gif')");
-<<<<<<< HEAD
 $("#goRight1").hide();
-=======
+
 
 		$("#goRight1").hide();
->>>>>>> origin/master
+origin/master
 		$("#goBack").hide();
-		$("#goRight-Straight1").show();
-		$("#goRight-Right2").show();
+		$("#goRight-Straight2").show();
+		$().show();
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
+		$("#exploreBody").css("background-image", "url('img/Fnaf4_jumpscare_fredbearinroom.gif')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
 	});
@@ -40,8 +39,8 @@ $("#goRight1").hide();
 
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
-		$("#goLeft1").hide("#goRight1");
-		$("#goLeft2").show();
+		$("#goLeft1").hide();
+		$("#goRight-Straight1").show();
 	});
 
 	$("#goLeft-Straight1").click(function() {
