@@ -14,14 +14,16 @@ origin/master
 
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/Fnaf4_jumpscare_fredbearinroom.gif')");
-		$("#goRight-Straight1").hide();
+		$("#goLeft1").hide();
 		$("#goRight-Straight2").show();
 	});
 
 	$("#goRight-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/471.png')");
 		$("#goRight-Straight2").hide();
-		$("#goRight-Straight3").show();
+		$("#goRight1").hide();
+		$("#goLeft-Straight1").hide();
+
 	});
 
 	$("#goRight-Straight3").click(function() {
@@ -44,9 +46,9 @@ origin/master
 	});
 
 	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
-		$("#goLeft2").show();
-		$("#goLeft3").show();
+		$("#exploreBody").css("background-image", "url('img/TitleScreens/tumblr_nnuiyvPYWP1upe3rko5_1280.gif')");
+		$("#goRight-Straight1").hide();
+		$("#goRight1").hide();
 	});
 
 	$("#goLeft-Straight2").click(function() {
