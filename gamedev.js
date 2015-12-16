@@ -19,7 +19,7 @@ origin/master
 	});
 
 	$("#goRight-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/TitleScreens/471.png')");
 		$("#goRight-Straight2").hide();
 		$("#goRight-Straight3").show();
 	});
