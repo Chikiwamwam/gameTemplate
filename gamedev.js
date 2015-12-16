@@ -39,7 +39,7 @@ origin/master
 
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/TitleScreens/145.png')");
-		$("#goLeft1").hide();
+		$("#goLeft-Straight1").show();
 		$("#goRight-Straight1").show();
 	});
 
